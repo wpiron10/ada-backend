@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_menu_links",
+  "info": {
+    "displayName": "MenuLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "SubMenuLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

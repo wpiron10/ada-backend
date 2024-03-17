@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterDescription": {
+      "type": "string",
+      "required": true
+    },
+    "SocialMediaDescription": {
+      "type": "string",
+      "required": true
+    },
+    "SocialMediaImageWithLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-with-link"
+    },
+    "FooterColumns": {
+      "type": "component",
+      "required": true,
+      "repeatable": true,
+      "component": "shared.footer-columns"
+    }
+  }
+}

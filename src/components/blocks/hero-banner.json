@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_hero_banners",
+  "info": {
+    "displayName": "HeroBanner"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.heading",
+      "required": true
+    }
+  }
+}

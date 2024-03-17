@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_texts",
+  "info": {
+    "displayName": "Text"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "isItalic": {
+      "type": "boolean",
+      "default": false
+    },
+    "isBold": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

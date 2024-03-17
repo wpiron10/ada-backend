@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "CardWithImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.heading",
+      "required": true
+    },
+    "Text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text",
+      "required": true
+    }
+  }
+}

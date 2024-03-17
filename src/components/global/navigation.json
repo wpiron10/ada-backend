@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "LogoImageWithLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-with-link"
+    },
+    "MenuLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-link"
+    },
+    "FeaturedMenuLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

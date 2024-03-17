@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_headings",
+  "info": {
+    "displayName": "Heading"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.heading"
+    }
+  }
+}

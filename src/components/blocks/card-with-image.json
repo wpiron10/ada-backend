@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_card_with_images",
+  "info": {
+    "displayName": "CardWithImage"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.heading"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text"
+    }
+  }
+}
